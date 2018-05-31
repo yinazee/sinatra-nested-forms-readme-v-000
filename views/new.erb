@@ -1,0 +1,13 @@
+
+<form action="/student" method="post">
+  Student Name: <input type="text" name="student[name]"></br>
+  Student Grade: <input type="text" name="student[grade]"></br>
+  <!--note the empty bracket below to indicate more course entries-->
+  <!--an empty array ([]) in our form view, and ERB will automagically index the array for us-->
+  <!--The [] is some ERB magic that we just need to accept and use-->
+  Course Name: <input type="text" name="student[courses][][name]"></br>
+  Course Topic: <input type="text" name="student[courses][][topic]"></br>
+  Course Name: <input type="text" name="student[courses][][name]"></br>
+  Course Topic: <input type="text" name="student[courses][][topic]"></br>
+  <input type="submit">
+</form>
