@@ -17,5 +17,10 @@ class App < Sinatra::Base
 
     erb :student
   end
+<<<<<<< HEAD
+=======
 
 end
+
+>>>>>>> 11729a5cbb0dbc2aa3b75bcaa1c7c19f27192a4c
+
